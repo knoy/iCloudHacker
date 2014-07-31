@@ -1,4 +1,7 @@
 // Kelaghn Noy - 2013
+// ###################
+// USE THIS CODE IF YOU HAVE A 13.3" MACBOOK
+// ##########################################
 // Compile this code to an Arduino microcontroller and connect using USB
 // iCloudHacker will automatically begin brute-forcing the iCloud unlock PIN 
 // Maximum brute forcing time: 60 hours
