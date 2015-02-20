@@ -43,9 +43,9 @@ void loop(){
     resetMouse();                            // Move mouse over the restart button
     moveMouse(127, -45);
     moveMouse(127, 0);
-    moveMouse(100, 0);
+    moveMouse(127, 0);
     Mouse.click(MOUSE_LEFT);                 // Click restart & wait for it to reboot
-    delay(95000);
+    delay(75000);
     resetMouse();
     moveMouse(127, -127);                    // Move mouse over wifi popup and close it
     moveMouse(127, -127);
