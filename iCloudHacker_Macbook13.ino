@@ -39,13 +39,13 @@ void loop(){
   if(waitcounter == 5) delay(65000);         // Hit 1 minute lockout, wait until we get another chance
   else if(waitcounter == 6) {                // Hit 5 minute lockout, let's reboot instead of waiting
     digitalWrite(ledpin, HIGH);
-    delay(45000);                            // Wait 45s before restarting in case we hit the right PIN
+    delay(20000);                            // Wait 45s before restarting in case we hit the right PIN
     resetMouse();                            // Move mouse over the restart button
     moveMouse(127, -45);
     moveMouse(127, 0);
     moveMouse(100, 0);
     Mouse.click(MOUSE_LEFT);                 // Click restart & wait for it to reboot
-    delay(75000);
+    delay(95000);
     resetMouse();
     moveMouse(127, -127);                    // Move mouse over wifi popup and close it
     moveMouse(127, -127);
